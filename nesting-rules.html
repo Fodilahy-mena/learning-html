@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Learning html nesting rules</title>
+    <link rel="stylesheet" href="sections.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Nesting rules
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="rules.html">
+                    Go back to the list of all html rules
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>
+            Definition of <dfn>Nesting</dfn>
+        </h2>
+        <p>
+            <b>Nesting</b> is a way of putting HTML <b>elements</b> within other <b>elements</b> in the proper order. Each <b>element</b> must be fully contained within its parent <b>element</b>.
+        </p>
+        <p>
+            <i>
+                There are some rules of <b>nesting</b> html which help you to make a good code, so I want you to not forget this list.
+            </i>
+        </p>
+    <nav>
+        <ol>
+            <li>
+                Put your code in the right order, in case it won't work. What I mean about this is when you've defined <b>DOCTYPE</b>, make sure that all of your nesting elements are inside of the <b>html</b> element. 
+            </li>
+            <li>
+                Define the <b>head</b> element as the origine of your code.
+            </li>
+            <li>
+                In the <b>head</b> element, you must need a <b>title</b> element as its child.
+            </li>
+            <li>
+                Each siblings must be in the same <mark>indenting</mark>.
+            </li>
+            <li>
+                Make sure that your <em>child</em> element tag is closed before you close the parent element. 
+            </li>
+            <li>
+                Your code maight have many sections inside the body element, so put them in order as well. For example, <b>header, main</b> and <b>footer</b>.  
+            </li>
+            <li>
+                Becareful there are some elements called void elements that do not have a closing tag and therefore cannot have content placed inside them, so what does this mean is they make no nest.
+            </li>
+        </ol>
+        <p>
+            <mark><q>Don't ever do this if you want a good code!.</q></mark> 
+        </p>
+        <p>
+            &lt;div&gt;&lt;p&gt;This is my nesting rules... &lt;/div&gt;&lt;/p&gt;
+        </p>
+        <p>
+            <mark><q>Do this instead!.</q></mark> 
+        </p>
+        <p>
+            &lt;div&gt;&lt;p&gt;This is my nesting rules... &lt;/p&gt;&lt;/div&gt;
+        </p>
+    </nav>
+</main>
+</body>
+</html>
